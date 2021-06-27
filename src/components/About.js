@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import reactIcon from "@iconify/icons-logos/react";
-import cPlusplus from '@iconify/icons-logos/c-plusplus';
-import javaIcon from "@iconify/icons-logos/java";
-import csharp from "@iconify/icons-logos/c-sharp";
-import githubFill from '@iconify/icons-logos/github-fill';
+import stackoverflow from "@iconify/icons-logos/stackoverflow-icon";
+import githubFill from '@iconify-icons/akar-icons/github-fill';
+import linkedinFill from '@iconify-icons/akar-icons/linkedin-fill';
+import envelopeIcon from '@iconify-icons/akar-icons/envelope';
+
+
 
 
 class About extends Component {
@@ -35,28 +36,30 @@ class About extends Component {
                     src={process.env.PUBLIC_URL + profilepic}
                     alt="Avatar placeholder"
                   />
-                  <a href="https://github.com/mohitjayant/mohit-dev-portfolio" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/mohitjayant/" target="_blank" rel="noopener noreferrer">
                     <Icon
                       icon={githubFill}
                       style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
                     />
                   </a>
-                  <Icon
-                    icon={javaIcon}
-                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={csharp}
-                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={cPlusplus}
-                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
-                  />
+                  <a href="https://www.linkedin.com/in/mohitjayant/" target="_blank" rel="noopener noreferrer">
+                    <Icon
+                      icon={linkedinFill}
+                      style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
+                    />
+                  </a>
+                  <a href="mailto:mkumar5@ce.iitr.ac.in" target="_blank" rel="noopener noreferrer">
+                    <Icon
+                      icon={envelopeIcon}
+                      style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
+                    />
+                  </a>
+                  <a href="https://stackoverflow.com/users/12728387/mohit-kumar?tab=profile" target="_blank" rel="noopener noreferrer">
+                    <Icon
+                      icon={stackoverflow}
+                      style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
+                    />
+                  </a>
                 </span>
               </div>
             </div>
