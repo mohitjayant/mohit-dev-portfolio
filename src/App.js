@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -7,7 +6,6 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Frameworks from "./components/Frameworks";
 import portfolioData from "./data/portfolio_shared_data.json";
 import primaryLangData from "./data/res_primaryLanguage.json";
 import secondryLangData from "./data/res_secondaryLanguage.json";
@@ -134,7 +132,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-india"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
@@ -149,10 +147,6 @@ class App extends Component {
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Frameworks
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
