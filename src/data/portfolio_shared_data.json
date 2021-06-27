@@ -9,11 +9,6 @@
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
-        },
-        {
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/mohitjayant/",
           "class": "fab fa-linkedin"
@@ -21,7 +16,17 @@
         {
           "name": "email",
           "url": "mailto:mkumar5@ce.iitr.ac.in",
-          "class": "fab fa-envelope-square"
+          "class": "fas fa-envelope"
+        },
+        {
+          "name": "stackoverflow",
+          "url": "https://stackoverflow.com/users/12728387/mohit-kumar?tab=profile",
+          "class": "fab fa-stack-overflow"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
         }
       ],
       "image": "myProfile.jpg"
