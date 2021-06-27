@@ -1,46 +1,22 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "नमस्कार",
+      "description": "👋 मैं मोहित कुमार हूं। सर्च टीम के लिए इंजीनियरिंग डेवलपमेंट के रूप में 1.5 साल का व्यावहारिक अनुभव और तेजी से बढ़ती सॉफ्टवेयर इंजीनियरिंग टीम का प्रबंधन किया। प्रौद्योगिकी और उत्पाद दोनों के लिए इंजीनियरिंग रणनीति को परिभाषित करना। एक स्केलेबल आर्किटेक्चर, सुरुचिपूर्ण डिजाइन, उच्च गुणवत्ता वाले कार्यान्वयन, निरंतर एकीकरण और वितरण के साथ कई कार्यक्रमों और उत्पादों को समय पर वितरित करना। सिस्टम डिज़ाइन, उच्च-स्तरीय समाधान, सॉफ़्टवेयर आर्किटेक्चर, उच्च-स्तरीय डिज़ाइन और कोड समीक्षाओं में अग्रणी और सक्रिय रूप से भाग लेना..💜",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "मेरे बारे मेँ",
+        "projects": "परियोजनाओं",
+        "skills": "कौशल",
+        "experience": "अनुभव"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Meal Recipe Finder",
+        "startDate": "2021",
+        "description": "The Meal Recipe Finder Project.User can search any Text, then it will auto suggest the recipe.You can get all the information of recipe and save it for future reference.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "/images/portfolio/recipe/p1.png",
+          "/images/portfolio/recipe/p2.png"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -51,65 +27,107 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Advance Printer Software",
+        "startDate": "2019",
+        "description": "The most expanded Project I had opportunity to work with. I've learned many technologies and Partnered with company mentor to learn best practices in software design. Developed the Dashboard which will work At All times, Display current status of Printers that are connected to Monolith and Show key health parameters of Printers so that Printers are operational all times.Developed the Edit Job Settings in which worked on edit all Job related Settings. Job Settings can be saved as a Preset to apply on other Jobs.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "/images/portfolio/printer/printer1.png",
+          "/images/portfolio/printer/printer2.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySql"
+          }
+        ]
+      },
+      {
+        "title": "Diaries Manager",
+        "startDate": "2018",
+        "description": "In Diaries Manager app you can define the privacy of your diary as private and Public and also you can filter the diaries which are public and also can write diary for a friend.",
+        "images": [
+          "/images/portfolio/diary/p1.png",
+          "/images/portfolio/diary/p2.png"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-redux-original",
+            "name": "Redux"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mysql-plain",
+            "name": "MySql"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "MagicBricks",
+        "title": "Software Engineer",
+        "years": "09.2020 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Spring"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
+          "Java/J2EE",
+          "REST Services",
+          "ReactJS",
           "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "Apache Solr",
+          "Hibernate",
+          "JSP/JSTL",
+          "Microservices",
+          "AJAX",
+          "JQuery"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Neon Technology Solution & Services ",
+        "title": "Backend Developer Intern",
+        "years": "01.2020 - 03.2020",
         "mainTech": [
-          "Angular 7/8"
+          "Spring"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
+          "Java",
+          "Rest Services",
           "JavaScript",
-          "DHTMLX Gantt"
+          "MySql",
+          "AJAX"
+        ]
+      },
+      {
+        "company": "VirSoftech",
+        "title": "Software Developer Intern",
+        "years": "05.2019 - 07.2019",
+        "mainTech": [
+          "ASP.NET"
+        ],
+        "technologies": [
+          "C#",
+          ".NET ",
+          "WPF",
+          "JavaScript",
+          "XAML"
         ]
       }
     ]
