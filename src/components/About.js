@@ -4,6 +4,8 @@ import stackoverflow from "@iconify/icons-logos/stackoverflow-icon";
 import githubFill from '@iconify-icons/akar-icons/github-fill';
 import linkedinFill from '@iconify-icons/akar-icons/linkedin-fill';
 import envelopeIcon from '@iconify-icons/akar-icons/envelope';
+import documentIcon  from '@iconify-icons/emojione-v1/document-with-text';
+
 
 
 
@@ -57,6 +59,12 @@ class About extends Component {
                   <a href="https://stackoverflow.com/users/12728387/mohit-kumar?tab=profile" target="_blank" rel="noopener noreferrer">
                     <Icon
                       icon={stackoverflow}
+                      style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
+                    />
+                  </a>
+                  <a href="https://drive.google.com/file/d/1cjd2ZvqIpMzfyZe2-BM-eiFyRhiNVoJG/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <Icon
+                      icon={documentIcon}
                       style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
                     />
                   </a>
