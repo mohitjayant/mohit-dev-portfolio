@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mohit-dev-portfolio/static/css/main.40f0e6cc.chunk.css",
+    "main.js": "/mohit-dev-portfolio/static/js/main.7ed0fd5c.chunk.js",
+    "main.js.map": "/mohit-dev-portfolio/static/js/main.7ed0fd5c.chunk.js.map",
+    "runtime-main.js": "/mohit-dev-portfolio/static/js/runtime-main.687d0e7f.js",
+    "runtime-main.js.map": "/mohit-dev-portfolio/static/js/runtime-main.687d0e7f.js.map",
+    "static/css/2.d64471e2.chunk.css": "/mohit-dev-portfolio/static/css/2.d64471e2.chunk.css",
+    "static/js/2.26ad827e.chunk.js": "/mohit-dev-portfolio/static/js/2.26ad827e.chunk.js",
+    "static/js/2.26ad827e.chunk.js.map": "/mohit-dev-portfolio/static/js/2.26ad827e.chunk.js.map",
+    "index.html": "/mohit-dev-portfolio/index.html",
+    "precache-manifest.800c6db5ab6efdb3ed823a1ad343b031.js": "/mohit-dev-portfolio/precache-manifest.800c6db5ab6efdb3ed823a1ad343b031.js",
+    "service-worker.js": "/mohit-dev-portfolio/service-worker.js",
+    "static/css/2.d64471e2.chunk.css.map": "/mohit-dev-portfolio/static/css/2.d64471e2.chunk.css.map",
+    "static/css/main.40f0e6cc.chunk.css.map": "/mohit-dev-portfolio/static/css/main.40f0e6cc.chunk.css.map",
+    "static/js/2.26ad827e.chunk.js.LICENSE.txt": "/mohit-dev-portfolio/static/js/2.26ad827e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.687d0e7f.js",
+    "static/css/2.d64471e2.chunk.css",
+    "static/js/2.26ad827e.chunk.js",
+    "static/css/main.40f0e6cc.chunk.css",
+    "static/js/main.7ed0fd5c.chunk.js"
+  ]
+}
