@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import cPlusplus from '@iconify/icons-logos/c-plusplus';
+import javaIcon from "@iconify/icons-logos/java";
+import csharp from "@iconify/icons-logos/c-sharp";
+import githubFill from '@iconify/icons-logos/github-fill';
+
 
 class About extends Component {
   render() {
@@ -14,6 +17,8 @@ class About extends Component {
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
+
+
 
     return (
       <section id="about">
@@ -30,17 +35,27 @@ class About extends Component {
                     src={process.env.PUBLIC_URL + profilepic}
                     alt="Avatar placeholder"
                   />
+                  <a href="https://github.com/mohitjayant/mohit-dev-portfolio" target="_blank" rel="noopener noreferrer">
+                    <Icon
+                      icon={githubFill}
+                      style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
+                    />
+                  </a>
                   <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    icon={javaIcon}
+                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={csharp}
+                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={cPlusplus}
+                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
                     icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                    style={{ fontSize: "275%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
               </div>
